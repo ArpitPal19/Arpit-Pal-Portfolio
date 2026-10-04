@@ -88,7 +88,7 @@ export const projects = [
     image: projectImg1,
     tech: ["React.js", "Node.js", "Express.js", "MongoDB"],
     demo: "https://e-commerce-website-2026-frontend.onrender.com/",
-    code: "https://github.com/yourusername/e-commerce-website",
+    code: "https://github.com/ArpitPal19/E-Commerce-Website-2026",
   },
   {
     title: "Chat App",
@@ -96,8 +96,8 @@ export const projects = [
       "A real-time chat application built with a modern frontend and backend stack for real-time communication.",
     image: projectImg2,
     tech: ["React.js", "Node.js", "Express.js", "Socket.IO"],
-    demo: "https://example.com/chat-app",
-    code: "https://github.com/yourusername/chat-app",
+    demo: "https://chat-app-client-nyyy.onrender.com/",
+    code: "https://github.com/ArpitPal19/Chat-App-2026",
   },
   {
     title: "Blood Bank App",
@@ -105,8 +105,8 @@ export const projects = [
       "A full-stack blood bank application for donor registration, blood requests, availability tracking, authentication, and inventory management.",
     image: projectImg3,
     tech: ["React.js", "Node.js", "Express.js", "MongoDB"],
-    demo: "https://example.com/blood-bank-app",
-    code: "https://github.com/yourusername/blood-bank-app",
+    demo: "https://blood-bank-management-app-beta.vercel.app/login",
+    code: "https://github.com/ArpitPal19/Blood-Bank-Management-App",
   },
 ];
 
