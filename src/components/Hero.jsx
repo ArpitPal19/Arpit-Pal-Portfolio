@@ -47,7 +47,7 @@ const Hero = () => {
             </a>
 
             <a
-              href="/Arpit_Resume5.pdf"
+              href="/Arpit-resume.pdf"
               download="Arpit_Pal_Resume.pdf"
               className="rounded-lg border border-white/30 px-6 py-3 font-medium text-white transition duration-300 hover:bg-white/10"
             >
