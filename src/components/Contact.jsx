@@ -17,17 +17,20 @@ const Contact = () => {
     const message = form.elements.message.value.trim();
 
     try {
-      const response = await fetch("http://localhost:5000/api/contact", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
+      const response = await fetch(
+        "https://arpit-portfolio-backend.onrender.com/api/contact",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({
+            name,
+            email,
+            message,
+          }),
         },
-        body: JSON.stringify({
-          name,
-          email,
-          message,
-        }),
-      });
+      );
 
       const data = await response.json();
 
